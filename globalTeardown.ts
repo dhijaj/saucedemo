@@ -4,7 +4,6 @@ import fs from 'fs';
 async function globalTeardown(config: FullConfig) {
   console.log('Running global teardown...');
 
-  // Delete storageState.json
   const path = './authUser.json';
     // Check if the file exists
     if (fs.existsSync(path)) {
