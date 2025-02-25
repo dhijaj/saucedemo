@@ -9,13 +9,14 @@ test.describe("Sauce Demo checkout page", async () => {
         {
             tag: ["@regression", "@UITest", "@SauceDemoCheckout"],
         },
-        async ({ cartPage, checkoutPage }) => {
+        async ({ cartPage, checkoutPage, loginPage }) => {
             await cartPage.gotoCartPage();
             await checkoutPage.clickCheckout();
             await checkoutPage.enterInformation();
             await checkoutPage.isSummary();
             await checkoutPage.finishCheckout();
             await checkoutPage.checkoutComplete();
+            await loginPage.saveAuthState();
         }
     );
 });
