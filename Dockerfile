@@ -17,4 +17,4 @@ COPY . /app/
 RUN npm install
 
 # Set the entry point for the container
-CMD xvfb-run npx playwright test --workers 1 --project=chromium || true
+RUN npx playwright test --workers 1 --project=chromium || true
