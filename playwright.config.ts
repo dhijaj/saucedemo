@@ -27,7 +27,7 @@ export default defineConfig({
   ],
   use: {
     storageState: 'authUser.json', // Load the saved state
-    headless: false,
+    headless: true,
     baseURL: baseUrl,
     trace: "on-first-retry",
     // storageState: "auth.json",
