@@ -1,0 +1,59 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="8.453959999999999">
+<testsuite name="001-loginPage.test.ts" timestamp="2025-02-25T12:44:34.041Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.823" errors="0">
+<testcase name="Sauce Demo unauthenticated HomePage › Verify unauthenticated Homepage and Login " classname="001-loginPage.test.ts" time="3.823">
+<system-out>
+<![CDATA[ - Launching test website - https://www.saucedemo.com/
+ - Title is as Expected - 'Swag Labs'
+ - Entering Username 
+ - Entering Password  
+ - Click Login in Sauce Demo Page 
+
+[[ATTACHMENT|..\test-results\001-loginPage-Sauce-Demo-u-e0f8d-ticated-Homepage-and-Login--chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="002-productListingPage.test.ts" timestamp="2025-02-25T12:44:34.041Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.171" errors="0">
+<testcase name="Sauce Demo Product listing page › Verify Product Listing page " classname="002-productListingPage.test.ts" time="1.171">
+<system-out>
+<![CDATA[ - Going to inventory page 
+ - Clicking on the Sauce Lap Backpack 
+ - Clicking Add to cart on the 'Sauce Lap Backpack' Item 
+ - Remove Button is visible after adding the item to cart
+ - Cart Badge has :  1 item
+ - Going to Cart
+
+[[ATTACHMENT|..\test-results\002-productListingPage-Sau-9e98c-erify-Product-Listing-page--chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="003-cart.test.ts" timestamp="2025-02-25T12:44:34.041Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.938" errors="0">
+<testcase name="Sauce Demo cart page › Verify sauce demo cart and the items " classname="003-cart.test.ts" time="0.938">
+<system-out>
+<![CDATA[ - Going to Cart page 
+ - Inventory item "Sauce Labs Backpack" is available in the cart list
+
+[[ATTACHMENT|..\test-results\003-cart-Sauce-Demo-cart-p-33c82-ce-demo-cart-and-the-items--chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="004-checkout.test.ts" timestamp="2025-02-25T12:44:34.041Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.129" errors="0">
+<testcase name="Sauce Demo checkout page › Verify sauce demo checkout " classname="004-checkout.test.ts" time="1.129">
+<system-out>
+<![CDATA[ - Going to Cart page 
+ - Going to checkout step 1 
+ - The URL is correct: /checkout-step-one.html
+ - Entering User information 
+ - Summary information present 
+ - Finish checkout 
+ - Verified Complete checkout page 
+ - Back Home button clicked on complete checkout page
+
+[[ATTACHMENT|..\test-results\004-checkout-Sauce-Demo-ch-cabb3-Verify-sauce-demo-checkout--chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
